@@ -18,6 +18,7 @@ body {
 
 .left_nav {
     width: 20%;
+    cursor: pointer;
 }
 
 .left_nav img {
@@ -29,6 +30,11 @@ body {
     gap: 25px;
 }
 
+.right_nav i:hover {
+    cursor: pointer;
+    color: black;
+}
+
 .submit {
     border-radius: 100%;
     background: black;
@@ -36,6 +42,7 @@ body {
     border: none;
     width: 50px;
     height: 50px;
+    cursor: pointer;
 }
 
 .right_nav i {
@@ -59,11 +66,10 @@ body {
     }
 
     .left_nav {
-        position: relative;
-    }
-
-    .left_nav {
         width: 179px;
+        display: flex;
+        align-items: center;
+        position: relative;
     }
 
     .text {
